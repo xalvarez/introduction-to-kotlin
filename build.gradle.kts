@@ -1,6 +1,5 @@
 plugins {
     kotlin("jvm") version "1.3.21"
-    application
     idea
 }
 
@@ -13,8 +12,9 @@ dependencies {
 
     testImplementation(kotlin("test"))
     testImplementation(kotlin("test-junit5"))
+    testImplementation("org.junit.jupiter:junit-jupiter:5.4.1")
 }
 
-application {
-    mainClassName = "com.github.xalvarez.introductiontokotlin.Application"
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
