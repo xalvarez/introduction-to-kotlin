@@ -55,3 +55,13 @@ Create the classes *Square* and *Triangle* which inherit from *Shape* taking int
 - Simple methods can be written in one line
 - Kotlin dependencies simplify dependency management
 @ulend
+
+---
+
+## Nullability
+
+@ul
+- [The Billion Dollar Mistake](https://en.wikipedia.org/wiki/Tony_Hoare#Apologies_and_retractions) (Tony Hoare).
+- Unless explicitly stated, nothing can be null.
+- If something can be null, compiler forces devs to deal with it.
+@ulend
