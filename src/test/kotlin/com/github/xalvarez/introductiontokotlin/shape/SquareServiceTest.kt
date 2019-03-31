@@ -31,4 +31,15 @@ class SquareServiceTest {
         assertEquals(square!!.base * square.base, area)
     }
 
+    @Test
+    fun `should describe squares`() {
+        // Given
+        val square = Square(base = 3.0)
+        val anotherSquare = Square(base = 4.0)
+        val squareService = SquareService()
+
+        // When / Then
+        squareService.describe(square, anotherSquare)
+    }
+
 }
