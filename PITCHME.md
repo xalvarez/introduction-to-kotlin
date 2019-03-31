@@ -39,10 +39,10 @@ Xavier Alvarez
 
 ### Exercise
 
-Create the classes *Square* and *Triangle* which inherit from *Shape* taking into account:
+Create the classes *Square* and *Triangle* which inherit from *Polygon* taking into account:
 
-1. Shapes have base and height, which never change, and beauty, which does change
-2. We need a method that calculates the area of a shape
+1. Polygons have base and height, which never change, and beauty, which does change
+2. We need a method that calculates the area of a polygon
 3. We need tests!
 
 ---
@@ -113,4 +113,14 @@ following:
 - *vararg* is the Kotlin modifier for a variable amount of parameters
 - String interpolation behaves just like in Javascript
 - Extension methods can potentially reduce boilerplate code
+@ulend
+
+---
+
+## Data classes
+
+@ul
+- Equivalent to Java POJOs
+- Provides typical *equals()*, *hashCode()* and *toString()* methods
+- Provides convenience method *copy()*
 @ulend
