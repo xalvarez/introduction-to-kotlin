@@ -124,3 +124,21 @@ following:
 - Provides typical *equals()*, *hashCode()* and *toString()* methods
 - Provides convenience method *copy()*
 @ulend
+
+---
+
+### Exercise
+
+Given a new data class *Line* which has the attributes colour and weight:
+
+1. Create a *LineService* class containing a method *newWithDoubleWeight()*
+2. *newWithDoubleWeight()* has a *Line* parameter and returns a new Line with double the weight of the previous one
+
+---
+
+### What have we learned?
+
+@ul
+- data classes are the way to go for Entities / "POJOs"
+- They behave similar to Lombok's data classes
+@ulend
