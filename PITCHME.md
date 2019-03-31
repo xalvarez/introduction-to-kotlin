@@ -61,7 +61,27 @@ Create the classes *Square* and *Triangle* which inherit from *Shape* taking int
 ## Nullability
 
 @ul
-- [The Billion Dollar Mistake](https://en.wikipedia.org/wiki/Tony_Hoare#Apologies_and_retractions) (Tony Hoare).
-- Unless explicitly stated, nothing can be null.
-- If something can be null, compiler forces devs to deal with it.
+- [The Billion Dollar Mistake](https://en.wikipedia.org/wiki/Tony_Hoare#Apologies_and_retractions) (Tony Hoare)
+- Unless explicitly stated, nothing can be null
+- If something can be null, compiler forces devs to deal with it
+@ulend
+
+---
+
+### Exercise
+
+Create the class *SquareService* which implements the following methods:
+
+1. **getAreaWithNonNullableSquare**, which receives a non-nullable Square and calculates its area.
+2. **getAreaWithNullableSquare**, which receives a nullable Square and calculates its area.
+
+Don't forget to create the corresponding tests!
+
+---
+
+### What have we learned?
+
+@ul
+- Kotlin discourages relying on nulls
+- Developers always need to be aware of nulls
 @ulend
