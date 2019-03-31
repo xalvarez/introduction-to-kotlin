@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 class SquareTest {
 
     @Test
-    fun `should calculate area correctly`() {
+    fun `should calculate area`() {
         // Given
         val base = 2.0
         val square = Square(base)

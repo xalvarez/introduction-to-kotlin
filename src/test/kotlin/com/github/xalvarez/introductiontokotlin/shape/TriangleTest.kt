@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 class TriangleTest {
 
     @Test
-    fun `should calculate area correctly`() {
+    fun `should calculate area`() {
         // Given
         val base = 2.0
         val height = 3.0
@@ -28,10 +28,22 @@ class TriangleTest {
 
         // When
         val retrievedBase = triangle.base
-        val retrievedHeight = triangle.height
 
         // Then
         assertEquals(retrievedBase, base)
+    }
+
+    @Test
+    fun `should get height`() {
+        // Given
+        val base = 2.0
+        val height = 3.0
+        val triangle = Triangle(base, height)
+
+        // When
+        val retrievedHeight = triangle.height
+
+        // Then
         assertEquals(retrievedHeight, height)
     }
 }
