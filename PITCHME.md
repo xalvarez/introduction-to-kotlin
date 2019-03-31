@@ -102,7 +102,8 @@ Don't forget to create the corresponding tests!
 Create a method *describe* in *SquareService* which receives a variable amount of Squares and for each of them does the
 following:
 
-1. Print the fhe following message: "A square with base = \<base of the square> has an area equal to \<area of the square>"
+1. Print the fhe following message: "A square with base = `<base of the square>` has an area
+equal to `<area of the square>`"
 2. The message is printed using a an extension method from the class List
 
 ---
