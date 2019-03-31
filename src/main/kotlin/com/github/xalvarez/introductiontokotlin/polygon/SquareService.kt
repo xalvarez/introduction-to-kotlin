@@ -1,4 +1,4 @@
-package com.github.xalvarez.introductiontokotlin.shape
+package com.github.xalvarez.introductiontokotlin.polygon
 
 class SquareService {
 

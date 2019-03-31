@@ -1,4 +1,4 @@
-package com.github.xalvarez.introductiontokotlin.shape
+package com.github.xalvarez.introductiontokotlin.polygon
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
