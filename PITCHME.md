@@ -85,3 +85,32 @@ Don't forget to create the corresponding tests!
 - Kotlin discourages relying on nulls
 - Developers always need to be aware of nulls
 @ulend
+
+---
+
+## Extension methods
+
+@ul
+- They allow us to extend a class' behaviour without inheriting from it
+- Original motivation: writing util methods without having to implements tons of methods (e.g. StringUtils)
+@ulend
+
+---
+
+### Exercise
+
+Create a method *describe* in *SquareService* which receives a variable amount of Squares and for each of them does the
+following:
+
+1. Print the fhe following message: "A square with base = \<base of the square> has an area equal to \<area of the square>"
+2. The message is printed using a an extension method from the class List
+
+---
+
+### What have we learned?
+
+@ul
+- *vararg* is the Kotlin modifier for a variable amount of parameters
+- String interpolation behaves just like in Javascript
+- Extension methods can potentially reduce boilerplate code
+@ulend
