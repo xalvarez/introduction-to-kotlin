@@ -5,11 +5,12 @@ import kotlin.test.assertEquals
 
 class SquareServiceTest {
 
+    private val squareService = SquareService()
+
     @Test
     fun `should calculate area with non nullable base`() {
         // Given
         val square = Square(base = 3.0)
-        val squareService = SquareService()
 
         // When
         val area = squareService.getAreaWithNonNullableSquare(square)
@@ -22,7 +23,6 @@ class SquareServiceTest {
     fun `should calculate area with nullable base`() {
         // Given
         val square: Square? = Square(base = 3.0)
-        val squareService = SquareService()
 
         // When
         val area = squareService.getAreaWithNullableSquare(square)
@@ -36,7 +36,6 @@ class SquareServiceTest {
         // Given
         val square = Square(base = 3.0)
         val anotherSquare = Square(base = 4.0)
-        val squareService = SquareService()
 
         // When / Then
         squareService.describe(square, anotherSquare)
