@@ -143,3 +143,52 @@ Given a new data class *Line* which has the attributes colour and weight:
 - data classes are the way to go for Entities / "POJOs"
 - They behave similar to Lombok's data classes
 @ulend
+
+---
+
+## Kotlin Standard Library
+
+---
+
+### Coroutines
+
+> One can think of a coroutine as a light-weight thread.
+Like threads, coroutines can run in parallel, wait for each other and communicate.
+The biggest difference is that coroutines are very cheap, almost free: we can create thousands
+of them, and pay very little in terms of performance. True threads, on the other hand, are
+expensive to start and keep around. A thousand threads can be a serious challenge for a modern
+machine.
+
+Source: https://kotlinlang.org/docs/tutorials/coroutines/coroutines-basic-jvm.html
+
+---
+
+### Idioms
+
+---
+
+#### apply
+
+```
+fun <T> T.apply(block: T.() -> Unit): T
+```
+
+_"Do something with an object and return the same object"_
+
+Typical use case: instantiate an object with default values and set only the ones you need
+
+Reference: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/apply.html
+
+---
+
+#### use
+
+```
+fun <T : Closeable?, R> T.use(block: (T) -> R): R
+```
+_"Do something with a resource, close it and return a result"_
+
+Typical use case: reading or writing from a closeable stream (equivalent to Java's
+try-with-resources)
+
+Reference: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/use.html
