@@ -4,9 +4,6 @@ This repository contains the material for a workshop whose aim is to showcase so
 that Kotlin provides. It is meant to be suitable for developers who have never worked with Kotlin
 before, although being familiar with other object oriented languages could be helpful.
 
-**Note that I haven't finished working on this workshop yet, so it might not be ready to be re-used
-yet.**
-
 ## Presentation
 
 The presentation slides don't contain all the information required to solve the exercises, as

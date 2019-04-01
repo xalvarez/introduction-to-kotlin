@@ -179,3 +179,13 @@ Typical use case: reading or writing from a closeable stream (equivalent to Java
 try-with-resources)
 
 Reference: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/use.html
+
+---
+
+## Before you go...
+
+@ul
+- Kotlin idioms: https://kotlinlang.org/docs/reference/idioms.html
+- Arrow: https://arrow-kt.io
+- Have _fun_ with Kotlin!
+@ulend
