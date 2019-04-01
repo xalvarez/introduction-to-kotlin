@@ -152,12 +152,9 @@ Given a new data class *Line* which has the attributes colour and weight:
 
 ### Coroutines
 
-> One can think of a coroutine as a light-weight thread.
-Like threads, coroutines can run in parallel, wait for each other and communicate.
+> One can think of a coroutine as a **light-weight thread**. [...]
 The biggest difference is that coroutines are very cheap, almost free: we can create thousands
-of them, and pay very little in terms of performance. True threads, on the other hand, are
-expensive to start and keep around. A thousand threads can be a serious challenge for a modern
-machine.
+of them, and pay very little in terms of performance.
 
 Source: https://kotlinlang.org/docs/tutorials/coroutines/coroutines-basic-jvm.html
 
