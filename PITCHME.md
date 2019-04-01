@@ -150,16 +150,6 @@ Given a new data class *Line* which has the attributes colour and weight:
 
 ---
 
-### Coroutines
-
-> One can think of a coroutine as a **light-weight thread**. [...]
-The biggest difference is that coroutines are very cheap, almost free: we can create thousands
-of them, and pay very little in terms of performance.
-
-Source: https://kotlinlang.org/docs/tutorials/coroutines/coroutines-basic-jvm.html
-
----
-
 ### Idioms
 
 ---
