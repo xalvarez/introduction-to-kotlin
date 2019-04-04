@@ -213,6 +213,8 @@ Reference: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/use.html
 
 @img[no-border](assets/img/qr-example-repo.png)
 
+---
+
 ## Before you go...
 
 @ul
