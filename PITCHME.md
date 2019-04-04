@@ -53,7 +53,7 @@ Create the classes *Square* and *Triangle* which inherit from *Polygon* taking i
 - Constructors, getters and setters are given to us *for free*
 - Kotlin prefers default values over method overloading
 - Simple methods can be written in one line
-- Kotlin dependencies simplify dependency management
+- var vs val
 @ulend
 
 ---
@@ -76,6 +76,31 @@ Create the class *SquareService* which implements the following methods:
 2. **getAreaWithNullableSquare**, which receives a nullable Square and calculates its area.
 
 Don't forget to create the corresponding tests!
+
+---
+
+### Late-initialized variables
+
+```
+lateinit var exampleVariable: ExampleObject
+```
+
+@ul
+- Originally invented to support dependency injection
+- Reading a lateinit variable before initializing it throws an exception
+@ulend
+
+---
+
+## lazy
+
+```
+val exampleVariable : ExampleObject by lazy { computedValue }
+```
+
+@ul
+- Lazy-initialized variables are only written when they are about to be read for the first time
+@ulend
 
 ---
 
