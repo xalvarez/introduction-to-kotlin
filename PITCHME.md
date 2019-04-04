@@ -207,6 +207,12 @@ Reference: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.io/use.html
 
 ---
 
+## Example: Spring Form Mailer
+
+[https://github.com/xalvarez/spring-form-mailer](https://github.com/xalvarez/spring-form-mailer)
+
+@img[no-border](assets/img/qr-example-repo.png)
+
 ## Before you go...
 
 @ul
